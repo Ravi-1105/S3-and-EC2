@@ -65,6 +65,6 @@ Snap Shot 1: Simple Storage Service (S3)
 
 Snap Shot 2: EC2 (Elastic Compute Cloud) – Instance
 
-Result:
+# Result:
 Thus, a Simple Storage Service (S3) and EC2 (Elastic Compute Cloud) - instance
 has been successfully created and launched in AWS
