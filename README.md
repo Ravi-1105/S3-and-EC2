@@ -6,33 +6,33 @@ instance in AWS.
 # Procedure
 a) Steps to Create a first S3 Bucket:
 
-Step 1: Sign in to the AWS Management Console
+## Step 1: Sign in to the AWS Management Console
 Go to https://console.aws.amazon.com/s3.
-Step 2: Open the S3 Service
+## Step 2: Open the S3 Service
 In the console, type S3 in the search bar and select S3 to open the service
 dashboard.
-Step 3: Create Bucket
+## Step 3: Create Bucket
 Click the Create bucket button.
-Step 4: Configure Bucket Settings
+## Step 4: Configure Bucket Settings
 
 • Bucket name: Choose a globally unique name.
 • AWS Region: Select the region where you want to store your data.
 
-Step 5: Object Ownership
+## Step 5: Object Ownership
 Choose between:
 ▪ ACLs disabled (recommended) – Bucket owner has full control.
 ▪ ACLs enabled – Control access via access control lists.
 
-Step 6: Block Public Access Settings
+## Step 6: Block Public Access Settings
 By default, all public access is blocked. Leave it as-is unless you need
 public access.
-Step 7: Bucket Versioning (optional)
+## Step 7: Bucket Versioning (optional)
 Choose whether to enable versioning for objects in the bucket.
-Step 8: Encryption (optional)
+## Step 8: Encryption (optional)
 Select encryption options (SSE-S3, SSE-KMS, or none).
-Step 9: Advanced Settings (optional)
+## Step 9: Advanced Settings (optional)
 Add tags, configure logging, etc.
-Step 10: Create the Bucket
+## Step 10: Create the Bucket
 Click Create bucket at the bottom of the page.
 
 b) i. Steps to launch an EC2 Instance
